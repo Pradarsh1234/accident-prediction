@@ -13,7 +13,7 @@ st.title("Accident Prediction Model")
 st.header("Predict Accidents in Karnataka")
 
 district_name = st.selectbox("Select District", district_names)
-year = st.number_input("Enter Year", min_value=2010, max_value=2035, value=2022)
+year = st.number_input("Enter Year", min_value=2010, max_value=2035, value=2025)
 
 if st.button("Predict Accidents"):
     # Encode district name to numerical value using label encoder
